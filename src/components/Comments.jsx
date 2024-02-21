@@ -8,6 +8,7 @@ export default function Comments({ postId }) {
   );
   return (
     <div>
+      <h2 className="text-2xl font-semibold font-mono">Comments:</h2>
       <ul className="list-disc px-2 font-mono">
         {comments.map((comment) => (
           <li key={comment.id}>{comment.name}</li>
